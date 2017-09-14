@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>jQuery Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1 class="headline">Crystal Game</h1>
+    <div class="rules">
+    <h3>Rules are simple:</h3>
+    <ol>
+        <li>Click a Crystal</li>
+        <li>Each Crystal will be a generated random number and you must reach the chosen number listed below</li>
+        <li>That's it. Click the Crystal and add to number</li>
+
+    </ol>
+    </div>
+<div class="number-container">
+    <h2 id="numGoal">Get to this number: <span id="numberRandom"></span> </h2>
+    <h2 id="numProgress">Here is your progress: <span id="addNumber">0</span> </h2>
+    </div>
+    <p>Here are the images you so desire, my lord</p>
+    <ul class="crystal-container">
+        <li id="crystal-one"><img src="assets/images/crystal-one.png" /></li>
+        <li id="crystal-two"><img src="assets/images/crystal-two.png" /></li>
+        <li id="crystal-three"><img src="assets/images/crystal-three.png" /></li>
+        <li id="crystal-four"><img src="assets/images/crystal-four.png" /></li>
+    </ul>
+    <div class="check">
+    <h3>Wins: <span id="winChecks"></span> </h3>
+    <h3>Losses: <span id="lossChecks"></span> </h3>
+    
+    </div>
+     
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script type="text/javascript" src="jQuery-Crystal-Game.js"></script>
+</body>
+
+</html>
+<!--This is just a thing that I want to iderate when you read this code. I'm tried. kthxbye -->

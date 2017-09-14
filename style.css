@@ -1,0 +1,32 @@
+html {
+	background: url("assets/images/background-image.jpg") no-repeat center center fixed;
+	 -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.crystal-container{
+
+	list-style-type: none;
+	display: inline-flex;
+	background-color: white;
+
+}
+
+div h1  {
+	background-color: white;
+	border: 4px double   red; 
+
+ }
+
+ .rules, .number-container, .check {
+
+ 	background-color: white;
+ 	border: 4px double red;
+ }
+
+ img:hover {
+
+ 	
+ }
